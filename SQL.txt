@@ -1,0 +1,11 @@
+USE test;
+
+CREATE TABLE 'register' (
+  'name' varchar(60) DEFAULT NULL,
+  'email' varchar(60) DEFAULT NULL,
+  'pass' varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO 'register' ('name', 'email', 'pass') VALUES
+('felipe', 'felipe@gmail.com', '$s0$e0801$kKFFUtO2HgMJPBhvP41ouw==$tD1pxvbNpewMEBu4fUe21jzr5fgKup3XRLKvuhIO72s=');
+COMMIT;
